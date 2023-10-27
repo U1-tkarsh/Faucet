@@ -328,7 +328,7 @@
   "sourceMap": "66:255:4:-:0;;;118:49;;;;;;;;;;150:10;142:5;;:18;;;;;;;;;;;;;;;;;;66:255;;;;;;",
   "deployedSourceMap": "66:255:4:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;87:20;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;:::o;7:126:6:-;44:7;84:42;77:5;73:54;62:65;;7:126;;;:::o;139:96::-;176:7;205:24;223:5;205:24;:::i;:::-;194:35;;139:96;;;:::o;241:118::-;328:24;346:5;328:24;:::i;:::-;323:3;316:37;241:118;;:::o;365:222::-;458:4;496:2;485:9;481:18;473:26;;509:71;577:1;566:9;562:17;553:6;509:71;:::i;:::-;365:222;;;;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Owned {\n    address public owner;\n\n        constructor() {\n        owner = msg.sender;\n    }\n\n    modifier onlyOwner {\n        require(\n            msg.sender == owner,\n            \"Only owner can call this function\"\n        );\n        _;\n    }\n}",
-  "sourcePath": "/Users/sebastianlueders/Blockchain/app-1/contracts/Owned.sol",
+  "sourcePath": "D:\\BitCoin\\latest Folder\\faucet-webpack-5-main\\faucet-webpack-5-main\\contracts\\Owned.sol",
   "ast": {
     "absolutePath": "project:/contracts/Owned.sol",
     "exportedSymbols": {
@@ -648,8 +648,8 @@
     "version": "0.8.9+commit.e5eed63a.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.10",
-  "updatedAt": "2023-03-09T15:43:52.159Z",
+  "schemaVersion": "3.4.15",
+  "updatedAt": "2023-10-27T07:21:37.822Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

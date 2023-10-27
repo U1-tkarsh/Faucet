@@ -37,7 +37,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\n// It's a way for designer to say that any child of this abstract contract has to implement the specified method (or methods)\n\nabstract contract Logger {\n\n    uint public testNum;\n    \n    constructor() {\n        testNum = 1000;\n    }\n    \n    function emitLog() public pure virtual returns(bytes32);\n\n    function test3() internal pure returns(uint) {\n        return 100;\n    }\n}",
-  "sourcePath": "/Users/sebastianlueders/Blockchain/app-1/contracts/Logger.sol",
+  "sourcePath": "D:\\BitCoin\\latest Folder\\faucet-webpack-5-main\\faucet-webpack-5-main\\contracts\\Logger.sol",
   "ast": {
     "absolutePath": "project:/contracts/Logger.sol",
     "exportedSymbols": {
@@ -337,8 +337,8 @@
     "version": "0.8.9+commit.e5eed63a.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.10",
-  "updatedAt": "2023-03-09T15:43:52.158Z",
+  "schemaVersion": "3.4.15",
+  "updatedAt": "2023-10-27T07:21:37.815Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
